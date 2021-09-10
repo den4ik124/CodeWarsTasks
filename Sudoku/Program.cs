@@ -2,9 +2,13 @@
 
 namespace Sudoku
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// In progress
+        /// </summary>
+        /// <param name="args"></param>
+        private static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
         }
