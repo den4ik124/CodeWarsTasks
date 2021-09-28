@@ -11,6 +11,12 @@ namespace Factorials
             Console.WriteLine(result);
         }
 
+        /// <summary>
+        /// Реализация умножения "в столбик" для чисел > int.MaxValue
+        /// </summary>
+        /// <param name="value1">строковое значение числа1</param>
+        /// <param name="value2">строковое значение числа2</param>
+        /// <returns>Результат умножения числа1 на число2</returns>
         public static string Multiply(string value1, string value2)
         {
             if (value1.Length < value2.Length)
@@ -58,6 +64,11 @@ namespace Factorials
             return Summ(sums);
         }
 
+        /// <summary>
+        /// Реализация суммирования "в стобик" для чисел > int.MaxValue
+        /// </summary>
+        /// <param name="sums">Массив чисел в строковом формате</param>
+        /// <returns>Сумму чисел в массиве</returns>
         private static string Summ(string[] sums)
         {
             int length = sums[0].Length;
@@ -84,6 +95,11 @@ namespace Factorials
             return sbSum.ToString();
         }
 
+        /// <summary>
+        /// Расчет факториала
+        /// </summary>
+        /// <param name="n">Число, факториал которого нужно вычислить</param>
+        /// <returns>Факториал числа n</returns>
         public static string Factorial(int n)
         {
             if (n < 0)
