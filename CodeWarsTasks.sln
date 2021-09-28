@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array.diffTests", "Array.di
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sudoku", "Sudoku\Sudoku.csproj", "{7AF1D621-3E2D-43B6-8FEA-02A02B6C54EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorials", "Factorials\Factorials.csproj", "{8ED87540-4A23-440B-B6CC-63C05A168AAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factorials", "Factorials\Factorials.csproj", "{8ED87540-4A23-440B-B6CC-63C05A168AAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PINCodeCombinations", "PINCodeCombinations\PINCodeCombinations.csproj", "{AFB333BB-9C14-48AD-B1A7-0FEAFBB4858E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{8ED87540-4A23-440B-B6CC-63C05A168AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8ED87540-4A23-440B-B6CC-63C05A168AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8ED87540-4A23-440B-B6CC-63C05A168AAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFB333BB-9C14-48AD-B1A7-0FEAFBB4858E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFB333BB-9C14-48AD-B1A7-0FEAFBB4858E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFB333BB-9C14-48AD-B1A7-0FEAFBB4858E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFB333BB-9C14-48AD-B1A7-0FEAFBB4858E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
